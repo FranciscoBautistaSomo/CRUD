@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de la tabla de datos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+
+<body class="hm-gradient">
+
+    <div class="container registration-form mt-4 ">
+        <div class="card-body card border-secondary">
+            <div class="form-icon">
+                <span><i class="bi bi-search fs-1"></i></span>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered border-secondary table-hover align-middle table-sm">
+                    <thead id="cabecera">
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre Usuario</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Telefono</th>
+                        <th scope="col">Fecha de nacimiento</th>
+                        <th scope="col">Editar</th>
+                        <th scope="col">Borrar</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>NoName</td>
+                            <td>Jose Gomez</td>
+                            <td>joseGo@yahoo.es</td>
+                            <td>654321987</td>
+                            <td>10/12/1970.</td>
+
+                            <td><a href="./editar.html" target="_blank"> <i class="bi bi-pen-fill fs-3"></i></a>
+                            </td>
+                            <td><i class="bi bi-trash2 text-secundary fs-3"
+                                    onclick="confirm('¿Estás seguro que quieres eliminar este registro?')"></i>
+                            </td>
+                        </tr>
+                        <tr class="justify-content-center">
+                            <th scope="row">2</th>
+                            <td>Winwin</td>
+                            <td>María Pérez</td>
+                            <td>mPerez@gmail.com</td>
+                            <td>654321321</td>
+                            <td>11/01/1971.</td>
+                            <td><a href="./editar.html" target="_blank"> <i class="bi bi-pen-fill fs-3"></i></a>
+                            </td>
+                            <td><i class="bi bi-trash2 text-secundary fs-3"
+                                    onclick="confirm('¿Estás seguro que quieres eliminar este registro?')"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>TodoMal</td>
+                            <td>Antonio García</td>
+                            <td>antGar@gmail.com</td>
+                            <td>654456789</td>
+                            <td>21/02/1972.</td>
+                            <td><a href="./editar.html" target="_blank"> <i class="bi bi-pen-fill fs-3"></i></a>
+                            </td>
+                            <td><i class="bi bi-trash2 text-secundary fs-3"
+                                    onclick="confirm('¿Estás seguro que quieres eliminar este registro?')"></i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
